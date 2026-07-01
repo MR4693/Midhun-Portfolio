@@ -1,8 +1,17 @@
-# Midhun Rajan — Manufacturing Digital Transformation Portfolio
+# Midhun Rajan — Manufacturing, Process & Digital Transformation Portfolio
 
-Executive engineering portfolio for a Manufacturing & Process Engineer who led a digital
-transformation programme across a live precision sheet metal environment — four ERP-integrated
-systems, built with AI-assisted development under full engineering direction.
+Executive engineering portfolio for a Manufacturing & Process Engineer in precision sheet metal.
+Balanced across three equal pillars — manufacturing engineering (CAD for manufacture, DFM,
+SolidWorks, production engineering), process engineering (SOPs, ISO 9001/14001 support,
+traceability, continuous improvement) and the digital transformation programme those disciplines
+produced: four ERP-integrated systems, built with AI-assisted development as one engineering tool
+among many, under full engineering direction.
+
+The portfolio makes clear the software systems were the **result** of manufacturing engineering
+expertise — not a replacement for it.
+
+> **v3** — this folder is the rebalanced three-pillar version. The original portfolio is kept
+> intact in the parent folder for records.
 
 **Live site:** https://mr4693.github.io/Midhun-Portfolio/
 
@@ -11,7 +20,8 @@ Static HTML/CSS/JS — no build step, GitHub Pages ready.
 ## Pages
 | File | Purpose |
 |------|---------|
-| `index.html` | Executive landing — positioning, ecosystem, executive architecture diagram, transformation journey |
+| `index.html` | Executive landing — three-pillar positioning, engineering foundation, ecosystem, executive architecture diagram, transformation journey |
+| `engineering.html` | Engineering foundation — manufacturing engineering (CAD for manufacture, DFM, SolidWorks, production engineering) and process engineering (SOPs, ISO 9001/14001 support, traceability, continuous improvement), and how each system traces back to it |
 | `showcase.html` | Project showcase — four live platforms, problem → solution → impact, with screenshots |
 | `architecture.html` | System architecture, tech stack, data flow, AI integration |
 | `intelligence.html` | Manufacturing Intelligence Platform — dashboards, KPIs, why each matters |

@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mr4693.github.io/Midhun-Portfolio/sitemap.xml
