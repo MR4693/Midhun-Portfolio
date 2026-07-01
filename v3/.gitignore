@@ -1,0 +1,14 @@
+# OS / cloud-sync cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor
+*~
+*.swp
+*.bak
+*.tmp
+
+# Scratch / preview artifacts
+_*.png

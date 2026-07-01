@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Project Showcase · Midhun Rajan — Manufacturing Systems</title>
+<meta name="description" content="Four ERP-integrated manufacturing systems in detail — problem, engineering challenge, solution, technology and measured business impact, with screenshots from each live application.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#0F2044">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="assets/site.webmanifest">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+
+<header class="site-head">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="index.html"><span class="brand-mark">MR</span><span>Midhun Rajan<small>Manufacturing &amp; Process Engineer</small></span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navlinks">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="engineering.html">Engineering</a></li>
+      <li><a href="showcase.html" aria-current="page">Showcase</a></li>
+      <li><a href="architecture.html">Architecture</a></li>
+      <li><a href="intelligence.html">Intelligence</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- ── PAGE HERO ──────────────────────────────────────── -->
+<section class="hero" style="padding:84px 0 72px">
+  <div class="wrap">
+    <span class="hero-badge">Project Showcase · Four Production Systems · Live</span>
+    <h1 style="font-size:clamp(32px,5vw,52px)">The systems<br>the engineering produced.</h1>
+    <p class="hero-sub">Each system below is the output of manufacturing and process engineering — a problem met on the floor while preparing parts for manufacture, planning processes and supporting production. Each is presented the way an engineering interviewer would want to see it: the operational problem, the engineering challenge, the solution, the technology, and the measured outcome — with screenshots from the live application.</p>
+  </div>
+</section>
+
+<!-- ── JUMP NAV ───────────────────────────────────────── -->
+<div class="bg-alt" style="border-bottom:1px solid var(--bd)">
+  <div class="wrap" style="display:flex;gap:10px;flex-wrap:wrap;padding-top:18px;padding-bottom:18px">
+    <a href="#mop" class="chip chip--green">01 · Operations Platform</a>
+    <a href="#mip" class="chip chip--green">02 · Intelligence Platform</a>
+    <a href="#jpa" class="chip chip--green">03 · Digital Job Pack</a>
+    <a href="#dms" class="chip chip--green">04 · Document Intelligence</a>
+    <a href="#summary" class="chip">Summary</a>
+  </div>
+</div>
+
+<!-- ── ENGINEERING BEHIND THE SYSTEMS ─────────────────── -->
+<section class="section">
+  <div class="wrap">
+    <div class="eyebrow">Engineering Behind the Systems</div>
+    <h2 class="h-sec">Each system began as an<br>engineering problem, not a spec.</h2>
+    <div class="rule"></div>
+    <p class="lead" style="margin-bottom:40px">These are not software projects that happened to land in a factory. Every one traces directly to a manufacturing or process engineering responsibility I already held — the software is simply the most effective form that engineering work could take. The <a href="engineering.html" style="color:var(--green);font-weight:600">engineering foundation page</a> sets out the CAD-for-manufacture, DFM and process discipline behind them in full.</p>
+    <div class="grid g-2" style="gap:20px">
+      <div class="card card--top">
+        <div class="card-eyebrow">Manufacturing Engineering → Systems</div>
+        <ul class="alist">
+          <li><strong>Production engineering &amp; job preparation</strong> — assembling the right drawings for a job — became the <strong>Digital Job Pack Platform</strong>.</li>
+          <li><strong>DFM &amp; engineering document control</strong> — right drawing, right revision, filed correctly — became the <strong>Document Intelligence Platform</strong>.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">Process Engineering → Systems</div>
+        <ul class="alist">
+          <li><strong>SOPs &amp; traceability</strong> — standard method and a record of who did what, when — became the <strong>Manufacturing Operations Platform</strong>.</li>
+          <li><strong>Process &amp; continuous improvement</strong> — finding and measuring the bottleneck — became the <strong>Manufacturing Intelligence Platform</strong>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ SYSTEM 01 — MOP ════════════════════ -->
+<section class="band" id="mop">
+  <div class="wrap">
+    <div class="num">System 01 of 04 · Live in Production</div>
+    <h2>Manufacturing Operations Platform</h2>
+    <p>Android shop floor digitisation · Live ERP integration · Brother label printing</p>
+    <div class="chips" style="margin-top:18px">
+      <span class="chip chip--dark">Android</span><span class="chip chip--dark">Python</span><span class="chip chip--dark">Flask</span>
+      <span class="chip chip--dark">SQL Server</span><span class="chip chip--dark">MIE Trak</span><span class="chip chip--dark">REST API</span>
+      <span class="chip chip--dark">Brother SDK</span><span class="chip chip--dark">Windows Server</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid g-3">
+      <div class="card card--top">
+        <div class="card-eyebrow">The Problem</div>
+        <ul class="alist">
+          <li>Paper job packs assembled and distributed manually at each shift start.</li>
+          <li>Clock-in and clock-out recorded on paper, then entered into MIE&nbsp;Trak by hand after the shift.</li>
+          <li>No digital audit trail — no record of who worked on what, for how long, or when.</li>
+          <li>Handwritten move tickets: inconsistent, slow and error-prone.</li>
+          <li>End-of-shift data entry created daily admin overhead and ERP data lag.</li>
+        </ul>
+      </div>
+      <div class="card card--top">
+        <div class="card-eyebrow">Engineering Challenge</div>
+        <ul class="alist">
+          <li>Replace paper job packs with digital equivalents on shop floor terminals.</li>
+          <li>Capture operator clock-in/out via Android, updating MIE&nbsp;Trak in real time.</li>
+          <li>Establish a full production audit trail — operator, job, work centre, timestamps.</li>
+          <li>Integrate the Brother label printer SDK for standardised move tickets.</li>
+          <li>Eliminate end-of-shift manual ERP data entry entirely.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">The Solution</div>
+        <ul class="alist">
+          <li>Android tablets at each work centre give operators direct access to their jobs, work instructions and tasks — no paper, no separate PC.</li>
+          <li>A Flask integration layer on the factory server connects every operator action straight to MIE&nbsp;Trak — no manual step between floor and ERP.</li>
+          <li>Live work order and job data drawn directly from the ERP database — current, not cached.</li>
+          <li>Standardised move tickets printed on demand at the point of production.</li>
+          <li>Runs on the factory LAN with no external internet dependency.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout callout--green" style="margin-top:32px">
+      <h4>ERP Integration</h4>
+      <p>Every operator action — clock-on, clock-off, job selection and quantity sign-off — updates the ERP at the moment it occurs. There is no end-of-shift upload, no manual data entry step, and no lag between what happens on the shop floor and what management sees. MIE&nbsp;Trak reflects the live state of production throughout the working day.</p>
+    </div>
+
+    <h3 style="font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);margin:48px 0 22px">Platform Screenshots · All Screens Live</h3>
+    <div class="phone-row">
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-01-auth.jpg" alt="Manufacturing Operations Platform — operator login screen" loading="lazy"></div></div><div class="phone-lbl">Operator Login</div></div>
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-02-home.jpg" alt="Manufacturing Operations Platform — home dashboard" loading="lazy"></div></div><div class="phone-lbl">Home Dashboard</div></div>
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-03-workcentres.jpg" alt="Manufacturing Operations Platform — work centre selection" loading="lazy"></div></div><div class="phone-lbl">Work Centres</div></div>
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-04-jobs.jpg" alt="Manufacturing Operations Platform — work order list" loading="lazy"></div></div><div class="phone-lbl">Work Orders</div></div>
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-05-clockin.jpg" alt="Manufacturing Operations Platform — clock in" loading="lazy"></div></div><div class="phone-lbl">Clock In</div></div>
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-06-clockout.jpg" alt="Manufacturing Operations Platform — clock out" loading="lazy"></div></div><div class="phone-lbl">Clock Out</div></div>
+      <div class="phone-wrap"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><img src="screenshots/sc-07-ticket.jpg" alt="Manufacturing Operations Platform — printed move ticket" loading="lazy"></div></div><div class="phone-lbl">Move Ticket</div></div>
+    </div>
+    <p class="figure-cap center">Scroll to view all seven live screens · operator login through to printed move ticket</p>
+    <div class="center" style="margin-top:14px"><span class="redact-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Customer names have been redacted for privacy and data-protection reasons.</span></div>
+
+    <div class="grid g-2" style="margin-top:44px">
+      <div class="card">
+        <div class="card-eyebrow">Measured Business Impact</div>
+        <ul class="clist">
+          <li>Operators no longer handle paper — every job, work instruction and sign-off is digital, traceable and ERP-linked from the start of each shift.</li>
+          <li>Labour data in MIE&nbsp;Trak is accurate in real time — no reliance on manually entered, end-of-shift records.</li>
+          <li>A complete digital production audit trail exists for every job — traceability paper could never deliver.</li>
+          <li>Standardised, ERP-linked move tickets replaced handwritten labels — part traceability improved.</li>
+          <li>Adopted across all 19 production operators without external consultancy or third-party support.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">Programme Notes</div>
+        <ul class="alist">
+          <li>Operators were involved throughout design — every screen tested on the shop floor before finalisation.</li>
+          <li>Shares data infrastructure with the Intelligence Platform — operator data feeds dashboards with no duplication.</li>
+          <li>Every requirement defined by the engineer who operates the production environment.</li>
+          <li>Deployed and maintained on factory infrastructure without external development resource.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mfg-strip"><div class="wrap"><span>Precision Sheet Metal Manufacturing</span><span class="sep">·</span><span>CNC Fibre Laser Cutting</span><span class="sep">·</span><span>Tube Laser Processing</span><span class="sep">·</span><span>CNC Press Brake</span><span class="sep">·</span><span>Welding &amp; Fabrication</span><span class="sep">·</span><span>Assembly</span></div></div>
+
+<!-- ════════════════════ SYSTEM 02 — MIP ════════════════════ -->
+<section class="band" id="mip" style="background:var(--blue)">
+  <div class="wrap">
+    <div class="num" style="color:rgba(255,255,255,.8)">System 02 of 04 · Live in Production</div>
+    <h2>Manufacturing Intelligence Platform</h2>
+    <p style="color:rgba(255,255,255,.82)">Real-time production dashboards · Executive &amp; supervisor visibility · SQL-driven reporting</p>
+    <div class="chips" style="margin-top:18px">
+      <span class="chip chip--dark">Python</span><span class="chip chip--dark">Flask</span><span class="chip chip--dark">SQL Server</span>
+      <span class="chip chip--dark">Jinja2</span><span class="chip chip--dark">MIE Trak</span><span class="chip chip--dark">Windows Server</span>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="wrap">
+    <div class="grid g-3">
+      <div class="card card--top">
+        <div class="card-eyebrow">The Problem</div>
+        <ul class="alist">
+          <li>Management had no real-time view of the shop floor — status was known only at end-of-shift or after a floor walk.</li>
+          <li>Supervisors walked the floor or called operators to establish job progress — time lost from production management.</li>
+          <li>Overdue work orders were only visible with specialist ERP access — issues went unaddressed for hours.</li>
+          <li>Labour utilisation and operator efficiency were unknown during the working day.</li>
+        </ul>
+      </div>
+      <div class="card card--top">
+        <div class="card-eyebrow">Four Dashboard Views</div>
+        <ul class="alist">
+          <li><strong>Main Dashboard</strong> — live production summary; open and overdue work orders at a glance.</li>
+          <li><strong>Live Shop Floor</strong> — every active operator session with elapsed time, job and work centre.</li>
+          <li><strong>Employee Efficiency</strong> — actual vs. estimated time per operator; session-level performance.</li>
+          <li><strong>Production Insights</strong> — work centre load, job distribution and production patterns.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">The Solution</div>
+        <ul class="alist">
+          <li>A dashboard server aggregates live production data and presents it in a browser — any device on the factory network, no login required.</li>
+          <li>All data drawn live from the MIE&nbsp;Trak database — the same source of truth that drives production.</li>
+          <li>Operator data from the Operations Platform feeds dashboards directly — shop floor and management share the same data, no delay.</li>
+          <li>No additional integration cost beyond the shared infrastructure already in place.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);margin:48px 0 16px">Dashboard Screenshots · Live Production Data</h3>
+    <div style="margin-bottom:22px"><span class="redact-note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Customer and employee names have been redacted for privacy and data-protection reasons.</span></div>
+    <div class="browser" style="margin-bottom:14px">
+      <div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">intelligence.local · Main Dashboard</div></div>
+      <div class="browser-screen"><img src="screenshots/pi/sc-pi-01-dashboard.png" alt="Manufacturing Intelligence Platform — main dashboard with live production summary" loading="lazy"></div>
+    </div>
+    <p class="figure-cap" style="margin-bottom:34px">Main Dashboard · Live MIE&nbsp;Trak SQL Server data · used by production managers and directors · refreshed on every page load</p>
+
+    <div class="grid g-2">
+      <div>
+        <div class="browser">
+          <div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">intelligence.local · Live Shop Floor</div></div>
+          <div class="browser-screen"><img src="screenshots/pi/sc-pi-02-shopfloor.png" alt="Manufacturing Intelligence Platform — live shop floor active sessions" loading="lazy"></div>
+        </div>
+        <p class="figure-cap">Live Shop Floor · active sessions, elapsed time, operator &amp; work centre</p>
+      </div>
+      <div>
+        <div class="browser">
+          <div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">intelligence.local · Employee Efficiency</div></div>
+          <div class="browser-screen"><img src="screenshots/pi/sc-pi-03-efficiency.png" alt="Manufacturing Intelligence Platform — employee efficiency actual vs estimated" loading="lazy"></div>
+        </div>
+        <p class="figure-cap">Employee Efficiency · actual vs. estimated time per operator</p>
+      </div>
+    </div>
+
+    <div class="browser" style="margin-top:24px">
+      <div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">intelligence.local · Production Insights</div></div>
+      <div class="browser-screen"><img src="screenshots/pi/sc-pi-04-insights.png" alt="Manufacturing Intelligence Platform — production insights and trend summary" loading="lazy"></div>
+    </div>
+    <p class="figure-cap" style="margin-bottom:40px">Production Insights · aggregated from live operator session records · for supervisors and production planning</p>
+
+    <div class="grid g-2">
+      <div class="card">
+        <div class="card-eyebrow">Measured Business Impact</div>
+        <ul class="clist">
+          <li>Directors and supervisors have real-time production visibility throughout the day — no floor walk, phone call, or direct ERP access.</li>
+          <li>All 19 operators and 14 work centres visible in a single management view — the entire shop floor at a glance.</li>
+          <li>Overdue work orders flagged continuously — scheduling issues acted on as they develop, not after delay.</li>
+          <li>Operator efficiency visible in real time — informed workload and scheduling decisions during the shift.</li>
+          <li>Supervisor time freed from status floor walks for higher-value production management.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">Programme Notes</div>
+        <ul class="alist">
+          <li>Deployed on existing factory server infrastructure — no additional hardware, licensing or third-party software.</li>
+          <li>Accessible from any device on the factory network — any browser, any screen, no app install or credentials.</li>
+          <li>Shares data directly with the Operations Platform — no separate data collection or duplicate ERP integration.</li>
+          <li>Read-only against the MIE&nbsp;Trak SQL Server database — zero risk of production data being altered through the dashboard.</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:24px;font-size:14px;color:var(--mid)">A dedicated deep-dive on the Manufacturing Intelligence Platform — why each capability matters — is on the <a href="intelligence.html" style="color:var(--green);font-weight:600">Manufacturing Intelligence page →</a></p>
+  </div>
+</section>
+
+<!-- ════════════════════ SYSTEM 03 — JPA ════════════════════ -->
+<section class="band" id="jpa">
+  <div class="wrap">
+    <div class="num">System 03 of 04 · Live in Production</div>
+    <h2>Digital Job Pack Platform</h2>
+    <p>Excel input · SQL lookup · PDF extraction · Consolidated print-ready job pack</p>
+    <div class="chips" style="margin-top:18px">
+      <span class="chip chip--dark">Python</span><span class="chip chip--dark">SQL Server</span><span class="chip chip--dark">PDF Automation</span>
+      <span class="chip chip--dark">MIE Trak</span><span class="chip chip--dark">Excel / openpyxl</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid g-2">
+      <div class="card card--top">
+        <div class="card-eyebrow">The Problem &amp; Engineering Challenge</div>
+        <p style="font-size:13.5px;color:var(--mid);line-height:1.7;margin-bottom:12px">Job pack preparation was a time-intensive manual process: engineers or planners received a list of part numbers, then manually located the corresponding assembly PDFs across multiple customer folder locations, extracted the relevant drawings, and assembled them into a single job pack for the shop floor.</p>
+        <p style="font-size:13.5px;color:var(--mid);line-height:1.7">Repeated multiple times per day, it consumed significant engineering time, produced inconsistent results, and was a recurring source of production delays when documentation was missed, misfiled or assembled incorrectly. Preparation ranged from 30 minutes to several hours per batch.</p>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">The Automated Solution</div>
+        <ul class="alist">
+          <li>Engineer uploads an Excel file of part numbers — the only manual step in the entire process.</li>
+          <li>Each part number matched automatically against the live ERP database — no manual searching across folder structures.</li>
+          <li>Relevant part drawings extracted from source PDFs automatically — only the required documentation included.</li>
+          <li>A single consolidated, correctly ordered, print-ready job pack PDF assembled for distribution.</li>
+          <li>Total preparation time: seconds per batch — no manual retrieval, sorting or assembly.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);margin:48px 0 22px">Automated Workflow</h3>
+    <svg viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:900px;display:block;margin-bottom:44px" role="img" aria-label="Workflow: Excel file to Python app to MIE Trak SQL to PDF extraction to print-ready job pack PDF">
+      <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#059669"/></marker></defs>
+      <rect x="10" y="30" width="150" height="80" rx="8" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5"/>
+      <text x="85" y="62" text-anchor="middle" font-family="Manrope,sans-serif" font-size="12" font-weight="700" fill="#0F2044">Excel File</text>
+      <text x="85" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Part Numbers</text>
+      <text x="85" y="96" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Upload</text>
+      <line x1="162" y1="70" x2="184" y2="70" stroke="#059669" stroke-width="2" marker-end="url(#arr)"/>
+      <rect x="186" y="30" width="150" height="80" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+      <text x="261" y="62" text-anchor="middle" font-family="Manrope,sans-serif" font-size="12" font-weight="700" fill="#0F2044">Python App</text>
+      <text x="261" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Reads Excel</text>
+      <text x="261" y="96" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Parses Parts</text>
+      <line x1="338" y1="70" x2="360" y2="70" stroke="#059669" stroke-width="2" marker-end="url(#arr)"/>
+      <rect x="362" y="30" width="150" height="80" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+      <text x="437" y="62" text-anchor="middle" font-family="Manrope,sans-serif" font-size="12" font-weight="700" fill="#0F2044">MIE Trak SQL</text>
+      <text x="437" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Locates PDFs</text>
+      <text x="437" y="96" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">per Part No.</text>
+      <line x1="514" y1="70" x2="536" y2="70" stroke="#059669" stroke-width="2" marker-end="url(#arr)"/>
+      <rect x="538" y="30" width="150" height="80" rx="8" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.5"/>
+      <text x="613" y="62" text-anchor="middle" font-family="Manrope,sans-serif" font-size="12" font-weight="700" fill="#0F2044">PDF Extraction</text>
+      <text x="613" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Retrieves &amp;</text>
+      <text x="613" y="96" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B7280">Extracts Pages</text>
+      <line x1="690" y1="70" x2="712" y2="70" stroke="#059669" stroke-width="2" marker-end="url(#arr)"/>
+      <rect x="714" y="20" width="168" height="100" rx="8" fill="#0F2044"/>
+      <text x="798" y="58" text-anchor="middle" font-family="Manrope,sans-serif" font-size="12" font-weight="700" fill="#fff">Print-Ready</text>
+      <text x="798" y="76" text-anchor="middle" font-family="Manrope,sans-serif" font-size="12" font-weight="700" fill="#10B981">Job Pack PDF</text>
+      <text x="798" y="96" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="rgba(255,255,255,.65)">Seconds · Not Hours</text>
+    </svg>
+
+    <h3 style="font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);margin:0 0 22px">System Workflow — End to End</h3>
+    <div class="grid g-2" style="margin-bottom:22px">
+      <div>
+        <div class="browser"><div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">Drawing Printer · Ready</div></div><div class="browser-screen"><img src="screenshots/jpa/sc-jpa-01.png" alt="Job Pack Automation — ready state awaiting part list" loading="lazy"></div></div>
+        <p class="figure-cap center">① Ready — awaiting part list</p>
+      </div>
+      <div>
+        <div class="browser"><div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">Drawing Printer · File Loaded</div></div><div class="browser-screen"><img src="screenshots/jpa/sc-jpa-02.png" alt="Job Pack Automation — part list loaded" loading="lazy"></div></div>
+        <p class="figure-cap center">② Part list loaded — one click to run</p>
+      </div>
+    </div>
+    <div class="browser" style="margin-bottom:14px"><div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">Drawing Printer · Processing</div></div><div class="browser-screen"><img src="screenshots/jpa/sc-jpa-03.png" alt="Job Pack Automation — live processing output" loading="lazy"></div></div>
+    <p class="figure-cap center" style="margin-bottom:28px">③ Processing — live PDF extraction with real-time progress output</p>
+    <div class="browser" style="margin-bottom:14px"><div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">Drawing Printer · Job Complete</div></div><div class="browser-screen"><img src="screenshots/jpa/sc-jpa-04.png" alt="Job Pack Automation — job complete, download ready" loading="lazy"></div></div>
+    <p class="figure-cap center" style="margin-bottom:40px">④ Job complete — 37 pages consolidated, print-ready PDF available for download</p>
+
+    <div class="grid g-2">
+      <div class="card">
+        <div class="card-eyebrow">Measured Outcome</div>
+        <ul class="clist">
+          <li>Job pack preparation reduced from hours to seconds — engineering time recovered for value-adding production work.</li>
+          <li>Production delays from missing, incorrect or out-of-order documentation significantly reduced.</li>
+          <li>Connected to live ERP data — the correct, current documents retrieved automatically, not a cached copy.</li>
+          <li>A repetitive daily task now handled automatically as the standard workflow.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">Programme Notes</div>
+        <ul class="alist">
+          <li>Connects to the live MIE&nbsp;Trak SQL Server database on every run — output based on current records, not a static cache.</li>
+          <li>Designed around the document types and folder structures already in use in production.</li>
+          <li>Run on demand by engineering or planning — no scheduled process or background service required.</li>
+          <li>Deployed on factory infrastructure without external development resource.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="mfg-strip"><div class="wrap"><span>Precision Sheet Metal Manufacturing</span><span class="sep">·</span><span>SolidWorks · DFM</span><span class="sep">·</span><span>ERP-Driven Manufacturing</span><span class="sep">·</span><span>Workflow Automation</span></div></div>
+
+<!-- ════════════════════ SYSTEM 04 — DMS ════════════════════ -->
+<section class="band" id="dms" style="background:var(--blue)">
+  <div class="wrap">
+    <div class="num" style="color:rgba(255,255,255,.8)">System 04 of 04 · Live in Production</div>
+    <h2>Document Intelligence Platform</h2>
+    <p style="color:rgba(255,255,255,.82)">Drag-and-drop intake · Automatic part number detection · MIE Trak ERP filing and attachment</p>
+    <div class="chips" style="margin-top:18px">
+      <span class="chip chip--dark">Python</span><span class="chip chip--dark">MIE Trak API</span><span class="chip chip--dark">PDF</span>
+      <span class="chip chip--dark">STEP Files</span><span class="chip chip--dark">DXF</span><span class="chip chip--dark">ERP Automation</span>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-alt">
+  <div class="wrap">
+    <div class="grid g-2">
+      <div class="card card--top">
+        <div class="card-eyebrow">The Problem &amp; Engineering Challenge</div>
+        <p style="font-size:13.5px;color:var(--mid);line-height:1.7;margin-bottom:12px">Engineering documentation — PDFs, STEP files, DXF files — was filed manually into MIE&nbsp;Trak. Engineers received documents, identified the part number, navigated to the correct customer and part folder, placed the file, then manually attached it to the corresponding part record in the ERP.</p>
+        <p style="font-size:13.5px;color:var(--mid);line-height:1.7">This consumed engineering time on administration, and was a persistent source of downstream problems — documents filed in the wrong location, or not attached to the correct ERP record, creating delays across production, purchasing and quality.</p>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">The Solution — How It Works</div>
+        <ul class="alist">
+          <li>Engineer drops documents onto the application — PDF, STEP and DXF all supported; no further manual input.</li>
+          <li>Part numbers identified automatically from document metadata and file naming — no manual identification, no misfiling.</li>
+          <li>Documents organised into the correct customer and part folder structure automatically.</li>
+          <li>Each file attached to the corresponding part record in MIE&nbsp;Trak automatically.</li>
+          <li>Document control becomes a consistent, automated process — correct practice enforced regardless of who handles the files.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--fm);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lt);margin:48px 0 22px">Application Screenshots</h3>
+    <div class="grid g-2">
+      <div>
+        <div class="browser"><div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">Document Intelligence Platform</div></div><div class="browser-screen"><img src="screenshots/dms/sc-dms-01.png" alt="Document Intelligence Platform — main drag-and-drop intake interface" loading="lazy"></div></div>
+        <p class="figure-cap center">Main Interface · drag-and-drop document intake</p>
+      </div>
+      <div>
+        <div class="browser"><div class="browser-bar"><div class="browser-dots"><span></span><span></span><span></span></div><div class="browser-url">Document Intelligence Platform</div></div><div class="browser-screen"><img src="screenshots/dms/sc-dms-02.png" alt="Document Intelligence Platform — automatic filing and ERP attachment" loading="lazy"></div></div>
+        <p class="figure-cap center">Document Processing · automatic filing and ERP attachment</p>
+      </div>
+    </div>
+
+    <div class="grid g-2" style="margin-top:44px">
+      <div class="card">
+        <div class="card-eyebrow">Measured Outcome</div>
+        <ul class="clist">
+          <li>Manual document filing substantially reduced — engineering time redirected to production-facing work.</li>
+          <li>Consistent, correctly structured document management enforced automatically — misfiling significantly reduced.</li>
+          <li>Part records in MIE&nbsp;Trak maintained with current, attached documentation — reducing the risk of production proceeding with incorrect or missing drawings.</li>
+          <li>Document control managed through a system-enforced process rather than manual discipline.</li>
+        </ul>
+      </div>
+      <div class="card card--topblue">
+        <div class="card-eyebrow" style="color:var(--blue)">Programme Notes</div>
+        <ul class="alist">
+          <li>Supports PDF, STEP and DXF — the three primary formats used in precision sheet metal engineering and purchasing.</li>
+          <li>Files that cannot be matched automatically are flagged for manual review rather than silently misfiled.</li>
+          <li>All documents remain on factory infrastructure — no external cloud dependency.</li>
+          <li>Deployed and maintained without third-party support; updated as requirements evolve.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ SUMMARY TABLE ════════════════════ -->
+<section class="section bg-alt" id="summary">
+  <div class="wrap">
+    <div class="eyebrow">Programme Summary</div>
+    <h2 class="h-sec">Every system at a glance</h2>
+    <div class="rule"></div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead><tr><th style="width:30%">System</th><th style="width:12%">Status</th><th style="width:58%">Business Outcome</th></tr></thead>
+      <tbody>
+        <tr><td><div class="sys-name">Manufacturing Operations Platform</div><div class="sys-stack">Android · Flask · MIE Trak · SQL Server</div></td><td><span class="status status--live">Live</span></td><td>Paperless shop floor operations — 19 operators and 14 work centres connected to ERP in real time. Paper job packs, clock cards and move tickets replaced with a digital production workflow.</td></tr>
+        <tr><td><div class="sys-name">Manufacturing Intelligence Platform</div><div class="sys-stack">Python · Flask · Jinja2 · SQL Server</div></td><td><span class="status status--live">Live</span></td><td>Real-time production visibility for management — live dashboards showing active operator sessions, work centre status, efficiency data and production insights without ERP access or floor visits.</td></tr>
+        <tr><td><div class="sys-name">Digital Job Pack Platform</div><div class="sys-stack">Python · PDF Automation · SQL Server · MIE Trak</div></td><td><span class="status status--live">Live</span></td><td>Engineering workflow automation — job pack preparation reduced from hours to seconds per batch. Drawing retrieval, PDF extraction and consolidation automated against live ERP data.</td></tr>
+        <tr><td><div class="sys-name">Document Intelligence Platform</div><div class="sys-stack">Python · MIE Trak API · PDF · STEP · DXF</div></td><td><span class="status status--live">Live</span></td><td>ERP document automation — drag-and-drop intake with automatic part number detection and MIE Trak filing. Engineering document control managed through a system-enforced process.</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="metrics" style="margin-top:40px">
+      <div class="metric"><div class="n">4</div><div class="l">Platforms live in production</div></div>
+      <div class="metric"><div class="n">19</div><div class="l">Operators on the live system</div></div>
+      <div class="metric"><div class="n">14</div><div class="l">Work centres connected to ERP</div></div>
+      <div class="metric"><div class="n">2025</div><div class="l">Programme start — ongoing</div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div><div class="foot-brand">Midhun <span>Rajan</span></div><p>Manufacturing &amp; Process Engineer · Sheet metal CAD for manufacture, DFM and process engineering — and the ERP-integrated systems built on that expertise, inside a live precision sheet metal environment.</p></div>
+      <div class="foot-col"><h6>Portfolio</h6><ul><li><a href="index.html">Home</a></li><li><a href="engineering.html">Engineering Foundation</a></li><li><a href="showcase.html">Project Showcase</a></li><li><a href="architecture.html">System Architecture</a></li><li><a href="intelligence.html">Manufacturing Intelligence</a></li></ul></div>
+      <div class="foot-col"><h6>Connect</h6><ul><li><a href="resume.html">Résumé</a></li><li><a href="contact.html">Contact</a></li><li><a href="https://github.com/MR4693" rel="noopener" target="_blank">GitHub</a></li><li><a href="https://www.linkedin.com/in/midhun-rajan-09a006145" rel="noopener" target="_blank">LinkedIn</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><p>© 2026 Midhun Rajan · Manufacturing · Process · Digital Transformation</p><p>Precision Sheet Metal · SolidWorks &amp; DFM · ERP Integration</p></div>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
